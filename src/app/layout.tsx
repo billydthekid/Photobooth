@@ -38,14 +38,14 @@ export default function RootLayout({
             <span className="inline-flex items-center justify-center gap-2">
               Made by{" "}
               <a
-                href="https://github.com/2bitdevv"
+                href="https://github.com/billydthekid"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1 text-slate-800 underline decoration-slate-400 underline-offset-2 hover:text-blue-700"
-                aria-label="2bit on GitHub"
+                aria-label="billydthekid on GitHub"
               >
                 <GitHubIcon className="h-4 w-4 shrink-0" />
-                2bit
+                Billy
               </a>
             </span>
           </footer>
