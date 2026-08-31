@@ -15,7 +15,7 @@ function GitHubIcon({ className }: { className?: string }) {
 }
 
 export const metadata: Metadata = {
-  title: "PhotoBoot by 2bit",
+  title: "PhotoBooth",
   description: "Blue-themed web photo booth app",
   icons: {
     icon: "/logo.png",
