@@ -1,4 +1,4 @@
-# PhotoBoot by 2bit
+# PhotoBoot by Billy
 
 A pastel-themed web photobooth built with Next.js, TypeScript, Zustand, TailwindCSS, and Canvas rendering.
 
@@ -99,37 +99,6 @@ npm run dev
 ```
 
 Open `http://localhost:3000`
-
----
-
-## Environment Variables
-
-Create `.env.local` in project root:
-
-```env
-SMTP_USER=example@gmail.com
-SMTP_PASS=your_google_app_password
-CONTACT_RECEIVER_EMAIL=example@gmail.com
-
-# Optional but required for reliable QR downloads on Vercel (serverless):
-# Create a Blob store in the Vercel project; this is set automatically when linked.
-BLOB_READ_WRITE_TOKEN=vercel_blob_rw_...
-```
-
-> Use Google **App Password**, not your normal Gmail password.
-
-`.env.local` should stay local and must not be committed.
-
----
-
-## Email Setup (Gmail SMTP)
-
-1. Enable 2-Step Verification on the Google account.
-2. Generate an App Password in Google Security.
-3. Put that value in `SMTP_PASS`.
-4. Restart server after env changes.
-
-If SMTP is missing, API currently returns success fallback (`queued: false`) so UI does not hard fail.
 
 ---
 
